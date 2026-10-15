@@ -8,22 +8,12 @@ function render_viridian_end()
     if gNetworkPlayers[0].currLevelNum ~= LEVEL_ENDING then return end
     local floor = gMarioStates[0].floor
     if floor ~= nil then return end
-
     local screenW = djui_hud_get_screen_width()
-
-
     local scaleX = screenW / 320 / 1.337
-
     local renderScaleX = scaleX + 0.01
-
-    
-    
-
 
     djui_hud_set_color(255, 255, 255, 255)
     djui_hud_set_filter(FILTER_NEAREST)
-
-
     djui_hud_render_texture_tile(TEX_CAKE, 0, 0, renderScaleX, 1, 0, 0, TEX_CAKE.width, TEX_CAKE.height)
 end
 

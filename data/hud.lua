@@ -32,9 +32,9 @@ local hideRemoteActs = {
 
 -- Actions that ALWAYS hide the box for everyone (including local player)
 local hideAllActs = {
-    [ACT_IN_CANNON]       = true,
-    [ACT_DISAPPEARED]     = true,
-    [ACT_VIRIDIAN_DEATH]  = true
+    [ACT_IN_CANNON]      = true,
+    [ACT_DISAPPEARED]    = true,
+    [ACT_VIRIDIAN_DEATH] = true
 }
 
 local function checkpoint_cooldown()
@@ -56,10 +56,10 @@ local function checkpoint_cooldown()
                 local m = gMarioStates[i]
                 local e = extraStates[i]
 
-                -- 1. Area match check: verify the remote player is actually in the local player's level/area
+                -- verify the remote player is actually in the local player's level/area
                 local sameArea = (np.currLevelNum == localNp.currLevelNum and np.currAreaIndex == localNp.currAreaIndex)
 
-                -- 2. Comprehensive hide condition
+                -- hide
                 local isRemoteOnlyHidden = (i ~= 0 and hideRemoteActs[m.action])
 
                 local shouldHide = hideAllActs[m.action]

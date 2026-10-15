@@ -1,4 +1,4 @@
---Code by PeachyPeach
+--Code by PeachyPeach956
 if not _G.charSelectExists then return end
 
 local ANIM_FREEZE_FRAMES = 4

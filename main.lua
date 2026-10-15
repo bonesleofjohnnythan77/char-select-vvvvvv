@@ -1,5 +1,5 @@
 -- name: [CS] \\#A0C8DC\\Captain Viridian
--- description: Captain Viridian from VVVVVV joins SM64 Coop Deluxe as a character select pack (gravity flipping not included yet)\n\nCredits:\nB. Bones Johnson - Mod Author, Modelling\nPeachyPeach956 - Freeze Frame effect code\nTerry Cavanagh - Made VVVVVV\n\nSpecial Thanks to the Coop Community members who helped me create this mod.
+-- description: Captain Viridian from VVVVVV joins SM64 Coop Deluxe as a character select pack (gravity flipping not included yet)\n\nCredits:\nB. Bones Johnson - Mod Author, Modelling\nPeachyPeach956 - Freeze Frame Effect Code\nKing the Memer - End Screen Code\nTerry Cavanagh - Made VVVVVV\n\nSpecial Thanks to the Coop Community members who helped me create this mod, you're all awesome.
 
 require "data/anims_custom"
 require "data/moveset"

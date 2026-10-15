@@ -12,7 +12,7 @@ for i = 0, MAX_PLAYERS - 1 do
     s.viridianGlowDir = 0
 end
 
---in case of gamemode break glass
+--in case of gamemode or the romhack port break glass
 GameModeOn = false
 isThatHack = false
 for i in pairs(gActiveMods) do
